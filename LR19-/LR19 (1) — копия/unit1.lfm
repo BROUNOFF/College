@@ -1,0 +1,94 @@
+object Form1: TForm1
+  Left = 1550
+  Height = 346
+  Top = 160
+  Width = 691
+  Caption = 'Значение функции'
+  ClientHeight = 346
+  ClientWidth = 691
+  DesignTimePPI = 144
+  LCLVersion = '3.8.0.0'
+  object Label1: TLabel
+    Left = 72
+    Height = 25
+    Top = 40
+    Width = 159
+    Caption = 'Введите значение a'
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 72
+    Height = 25
+    Top = 168
+    Width = 164
+    Caption = 'Значение функции f'
+    OnClick = Label2Click
+  end
+  object Button1: TButton
+    Left = 192
+    Height = 48
+    Top = 248
+    Width = 224
+    Caption = 'Вычислить'
+    Color = clNavy
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -24
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 304
+    Height = 33
+    Top = 40
+    Width = 304
+    TabOrder = 1
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 304
+    Height = 33
+    Top = 160
+    Width = 304
+    TabOrder = 2
+    OnChange = Edit2Change
+  end
+  object BitBtn1: TBitBtn
+    Left = 520
+    Height = 45
+    Top = 280
+    Width = 137
+    DefaultCaption = True
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -22
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Left = 72
+    Height = 25
+    Top = 96
+    Width = 161
+    Caption = 'Введите значение b'
+    OnClick = Label1Click
+  end
+  object Edit3: TEdit
+    Left = 304
+    Height = 33
+    Top = 96
+    Width = 304
+    TabOrder = 4
+    OnChange = Edit3Change
+  end
+end

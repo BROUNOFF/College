@@ -1,0 +1,80 @@
+object Form1: TForm1
+  Left = 1503
+  Height = 440
+  Top = 183
+  Width = 896
+  Caption = 'Выход'
+  ClientHeight = 440
+  ClientWidth = 896
+  DesignTimePPI = 144
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -22
+  Font.Name = 'Stencil'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  Font.Style = [fsItalic]
+  OnCreate = FormCreate
+  LCLVersion = '3.8.0.0'
+  object Label1: TLabel
+    Left = 192
+    Height = 32
+    Top = 48
+    Width = 546
+    Caption = 'Догадайтесь, кто сделал этот проект?'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlue
+    Font.Height = -28
+    Font.Name = 'System'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 328
+    Height = 72
+    Top = 112
+    Width = 249
+    Caption = 'Нажмите здесь!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -28
+    Font.Name = 'Rockwell'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object BitBtn1: TBitBtn
+    Left = 656
+    Height = 48
+    Top = 360
+    Width = 160
+    Caption = 'Выход'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 334
+    Height = 1
+    Top = 212
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -22
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+end

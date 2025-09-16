@@ -1,0 +1,156 @@
+object Form1: TForm1
+  Left = 1505
+  Height = 590
+  Top = 175
+  Width = 850
+  Caption = 'Параметры треугольника'
+  ClientHeight = 590
+  ClientWidth = 850
+  DesignTimePPI = 144
+  LCLVersion = '3.8.0.0'
+  object Label1: TLabel
+    Left = 88
+    Height = 30
+    Top = 80
+    Width = 237
+    Caption = 'Введите длины сторон:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -22
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 456
+    Height = 30
+    Top = 80
+    Width = 166
+    Caption = 'Величины углов'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -22
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 120
+    Height = 25
+    Top = 152
+    Width = 21
+    Caption = 'a='
+  end
+  object Label4: TLabel
+    Left = 120
+    Height = 25
+    Top = 216
+    Width = 23
+    Caption = 'b='
+  end
+  object Label5: TLabel
+    Left = 120
+    Height = 25
+    Top = 288
+    Width = 20
+    Caption = 'c='
+  end
+  object Edit1: TEdit
+    Left = 152
+    Height = 33
+    Top = 144
+    Width = 120
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 152
+    Height = 33
+    Top = 208
+    Width = 120
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 152
+    Height = 33
+    Top = 280
+    Width = 120
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 152
+    Height = 33
+    Top = 352
+    Width = 120
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 208
+    Height = 46
+    Top = 464
+    Width = 152
+    Caption = 'Вычислить'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clRed
+    Font.Height = -22
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 456
+    Height = 46
+    Top = 464
+    Width = 144
+    Caption = 'Очистить'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -22
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 5
+    OnClick = Button2Click
+  end
+  object Label7: TLabel
+    Left = 464
+    Height = 25
+    Top = 216
+    Width = 53
+    Caption = 'betta='
+  end
+  object Label8: TLabel
+    Left = 464
+    Height = 25
+    Top = 288
+    Width = 73
+    Caption = 'gamma='
+  end
+  object Label10: TLabel
+    Left = 464
+    Height = 25
+    Top = 368
+    Width = 103
+    Caption = 'Площадь S='
+  end
+  object Edit5: TEdit
+    Left = 576
+    Height = 33
+    Top = 360
+    Width = 96
+    TabOrder = 6
+  end
+  object Label6: TLabel
+    Left = 464
+    Height = 25
+    Top = 152
+    Width = 40
+    Caption = 'alfa='
+  end
+  object Label9: TLabel
+    Left = 40
+    Height = 25
+    Top = 360
+    Width = 110
+    Caption = 'Периметр P='
+  end
+end

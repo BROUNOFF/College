@@ -1,0 +1,124 @@
+object Form1: TForm1
+  Left = 1492
+  Height = 463
+  Top = 195
+  Width = 724
+  Caption = 'Площадь квадрата'
+  ClientHeight = 463
+  ClientWidth = 724
+  Color = clBtnFace
+  DesignTimePPI = 144
+  LCLVersion = '3.8.0.0'
+  object Label1: TLabel
+    Left = 80
+    Height = 38
+    Top = 40
+    Width = 273
+    Caption = 'Площадь квадрата = '
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clNavy
+    Font.Height = -28
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 80
+    Height = 30
+    Top = 128
+    Width = 107
+    Caption = 'Сторона ='
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clRed
+    Font.Height = -22
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 80
+    Height = 30
+    Top = 184
+    Width = 128
+    Caption = 'Диагональ ='
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clRed
+    Font.Height = -22
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 80
+    Height = 30
+    Top = 232
+    Width = 174
+    Caption = 'Площадь круга ='
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clRed
+    Font.Height = -22
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 360
+    Height = 33
+    Top = 48
+    Width = 280
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 216
+    Height = 33
+    Top = 125
+    Width = 248
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 240
+    Height = 33
+    Top = 176
+    Width = 224
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 280
+    Height = 33
+    Top = 229
+    Width = 184
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object BitBtn1: TBitBtn
+    Left = 576
+    Height = 40
+    Top = 408
+    Width = 128
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 88
+    Height = 48
+    Top = 360
+    Width = 152
+    Caption = 'Сосчитать'
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 88
+    Height = 32
+    Top = 416
+    Width = 152
+    Caption = 'Очистить'
+    TabOrder = 6
+    OnClick = Button2Click
+  end
+end
